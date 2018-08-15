@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ShortUrl" />
+        <module name="surl-core" />
+        <module name="surl-manage" />
+        <module name="surl-service" />
+        <module name="surl-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ShortUrl" target="1.8" />
+      <module name="surl-core" target="1.8" />
+      <module name="surl-manage" target="1.8" />
+      <module name="surl-service" target="1.8" />
+      <module name="surl-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

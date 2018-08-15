@@ -6,7 +6,14 @@
 
     <groupId>net.xconfig</groupId>
     <artifactId>shortUrl</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>surl-core</module>
+        <module>surl-web</module>
+        <module>surl-manage</module>
+        <module>surl-service</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -79,19 +86,4 @@
         </dependency>
     </dependencies>
 
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.mybatis.generator</groupId>
-                <artifactId>mybatis-generator-maven-plugin</artifactId>
-                <version>1.3.2</version>
-                <configuration>
-                    <configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
-                    <overwrite>true</overwrite>
-                    <verbose>true</verbose>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>
