@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/surl?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: yulinxiao123
+  thymeleaf:
+    cache: false
+  mvc:
+    static-path-pattern: /static/**
+
+mybatis:
+    mapper-locations: classpath:mapping/*Mapper.xml
+    type-aliases-package: net.xconfig.surl.pojo
+
+

@@ -1,0 +1,15 @@
+.btn{
+    cursor: pointer;
+}
+
+.btn_common{
+    border: 1px solid #33CCFF;
+    border-radius: 1px;
+    padding: 2px 10px;
+    margin-top: 20px;
+}
+
+.span_message{
+    margin-top: 10px;
+    margin-left: 5px;
+}
