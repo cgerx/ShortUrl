@@ -9,7 +9,7 @@ import java.util.Date;
  * Author: cg
  * Create Time:2018/8/12 21:52
  */
-public class Surl {
+public class Surl extends BasePojo{
 
     public static final String TABLENAME = "surl";
 

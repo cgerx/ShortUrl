@@ -9,13 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>surl-manage</artifactId>
+    <artifactId>surl-sso</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>cn.xconfig</groupId>
-            <artifactId>surl-service</artifactId>
+            <artifactId>surl-core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
 </project>

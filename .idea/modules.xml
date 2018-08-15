@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/surl-core/surl-core.iml" filepath="$PROJECT_DIR$/surl-core/surl-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/surl-manage/surl-manage.iml" filepath="$PROJECT_DIR$/surl-manage/surl-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/surl-service/surl-service.iml" filepath="$PROJECT_DIR$/surl-service/surl-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/surl-sso/surl-sso.iml" filepath="$PROJECT_DIR$/surl-sso/surl-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/surl-web/surl-web.iml" filepath="$PROJECT_DIR$/surl-web/surl-web.iml" />
     </modules>
   </component>

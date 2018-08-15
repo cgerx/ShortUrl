@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/surl-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/surl-manage" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/surl-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/surl-sso" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/surl-web" charset="UTF-8" />
   </component>
 </project>

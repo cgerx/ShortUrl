@@ -4,7 +4,6 @@ import cn.xconfig.mapper.sql.SurlSQLProvider;
 import cn.xconfig.pojo.Surl;
 import org.apache.ibatis.annotations.InsertProvider;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.SelectProvider;
 
 @Mapper
