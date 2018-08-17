@@ -2,7 +2,7 @@ package cn.xconfig.controller;
 
 import cn.xconfig.pojo.Surl;
 import cn.xconfig.service.UrlService;
-import cn.xconfig.tool.Result;
+import cn.xconfig.dto.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.*;

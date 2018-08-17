@@ -2,7 +2,7 @@ package cn.xconfig.service;
 
 import cn.xconfig.constants.Constants;
 import cn.xconfig.exception.SurlException;
-import cn.xconfig.mapper.SurlMapper;
+import cn.xconfig.mapper.ISurlMapper;
 import cn.xconfig.pojo.Surl;
 import cn.xconfig.tool.MD5Tool;
 import cn.xconfig.tool.StringTool;
@@ -23,7 +23,7 @@ import java.util.List;
 public class UrlService {
 
     @Autowired
-    private SurlMapper surlMapper;
+    private ISurlMapper surlMapper;
 
     /**
      * 生成CODE

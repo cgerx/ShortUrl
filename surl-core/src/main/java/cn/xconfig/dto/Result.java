@@ -1,4 +1,4 @@
-package cn.xconfig.tool;
+package cn.xconfig.dto;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +10,7 @@ import java.util.Map;
  * Author: cg
  * Create Time:2018/8/13 18:24
  */
-public class Result {
+public class Result extends BaseDto{
 
     private boolean success;
 

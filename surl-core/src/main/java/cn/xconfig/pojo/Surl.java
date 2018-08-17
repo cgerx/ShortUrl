@@ -1,5 +1,8 @@
 package cn.xconfig.pojo;
 
+import cn.xconfig.annotation.Column;
+import cn.xconfig.annotation.Table;
+
 import java.util.Date;
 
 /**
@@ -9,6 +12,7 @@ import java.util.Date;
  * Author: cg
  * Create Time:2018/8/12 21:52
  */
+@Table(tableName = Surl.TABLENAME)
 public class Surl extends BasePojo{
 
     public static final String TABLENAME = "surl";
@@ -23,11 +27,12 @@ public class Surl extends BasePojo{
 
     private Date expireDate;
 
-    private Boolean isDelete;
+    @Column("isDelete")
+    private Boolean delete;
 
     public Surl(){
         createDate = new Date();
-        isDelete = false;
+        delete = false;
     }
 
     public Integer getId() {
@@ -71,10 +76,10 @@ public class Surl extends BasePojo{
     }
 
     public Boolean getDelete() {
-        return isDelete;
+        return delete;
     }
 
     public void setDelete(Boolean delete) {
-        isDelete = delete;
+        delete = delete;
     }
 }
